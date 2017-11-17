@@ -1,0 +1,12 @@
+id,authorId,title,releaseDate,link
+1,1,Fantastic Beasts and Where to Find Them: The Original Screenplay,11/18/16,http://amzn.to/2kup94P
+2,1,"Harry Potter and the Sorcerer's Stone: The Illustrated Edition (Harry Potter, Book 1)",10/6/15,http://amzn.to/2l2lSwP
+3,1,"The Tales of Beedle the Bard, Standard Edition (Harry Potter)",12/4/08,http://amzn.to/2kYezqr
+4,1,"Harry Potter and the Chamber of Secrets: The Illustrated Edition (Harry Potter, Book 2)",10/4/16,http://amzn.to/2kYhL5n
+5,2,"Informix 12.10 on Mac 10.12 with a dash of Java 8: The Tale of the Apple, the Coffee, and a Great Database",4/23/17,http://amzn.to/2i3mthT
+6,2,"Development Tools in 2006: any Room for a 4GL-style Language?: An independent study by Jean Georges Perrin, IIUG Board Member",12/28/16,http://amzn.to/2vBxOe1
+7,3,Adventures of Huckleberry Finn,5/26/94,http://amzn.to/2wOeOav
+8,3,A Connecticut Yankee in King Arthur's Court,6/17/17,http://amzn.to/2x1NuoD
+10,4,Jacques le Fataliste,3/1/00,http://amzn.to/2uZj2KA
+11,4,Diderot Encyclopedia: The Complete Illustrations 1762-1777,,http://amzn.to/2i2zo3I
+12,,A Woman in Berlin,7/11/06,http://amzn.to/2i472WZ
