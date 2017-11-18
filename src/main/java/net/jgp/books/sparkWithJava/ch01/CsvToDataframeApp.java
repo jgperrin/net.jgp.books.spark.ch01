@@ -17,7 +17,7 @@ public class CsvToDataframeApp {
     }
 
     /**
-     * The worker code.
+     * The processing code.
      */
     private void start() {
         // Creates a session on a local master
@@ -31,7 +31,7 @@ public class CsvToDataframeApp {
                 .option("header", "true")
                 .load("data/books.csv");
 
-        // Shows at most 20 rows from the dataframe
-        df.show();
+        // Shows at most 5 rows from the dataframe
+        df.show(5);
     }
 }
