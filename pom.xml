@@ -65,10 +65,24 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
+				<version>3.7.0</version>
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6.0</version>
+				<configuration>
+					<executable>java</executable>
+					<arguments>
+						<argument>-Dlog4j.configuration=file:src/main/java/log4j.properties</argument>
+						<argument>-classpath</argument>
+						<classpath />
+						<argument>net.jgp.books.sparkWithJava.ch01.CsvToDataframeApp</argument>
+					</arguments>
 				</configuration>
 			</plugin>
 		</plugins>
