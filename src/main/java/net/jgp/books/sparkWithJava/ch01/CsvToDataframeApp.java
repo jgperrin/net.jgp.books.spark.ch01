@@ -26,7 +26,7 @@ public class CsvToDataframeApp {
     private void start() {
         // Creates a session on a local master
         SparkSession spark = SparkSession.builder()
-                .appName("CSV to Dataset")
+                .appName("CSV to Dataframe")
                 .master("local")
                 .getOrCreate();
 
