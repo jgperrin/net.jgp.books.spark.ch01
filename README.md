@@ -1,2 +1,3 @@
-# net.jgp.books.sparkWithJava.ch01
-Spark with Java - chapter 1
+# Spark with Java - chapter 1
+
+Welcome to Apache Spark.
