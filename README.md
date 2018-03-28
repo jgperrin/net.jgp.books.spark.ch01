@@ -2,4 +2,4 @@ The examples in this repository are support to the **Spark with Java** book by J
 
 # Spark with Java - chapter 1
 
-Welcome to Apache Spark.
+Welcome to Spark with Java, chapter 1. This chapter is an introduction to the book and offers a basic example.
