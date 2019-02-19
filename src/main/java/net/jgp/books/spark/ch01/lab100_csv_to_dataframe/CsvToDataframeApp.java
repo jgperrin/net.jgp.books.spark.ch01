@@ -1,4 +1,4 @@
-package net.jgp.books.sparkWithJava.ch01;
+package net.jgp.books.spark.ch01.lab100_csv_to_dataframe;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;

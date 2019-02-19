@@ -15,6 +15,7 @@
     <java.version>1.8</java.version>
     <scala.version>2.11</scala.version>
     <spark.version>2.4.0</spark.version>
+    <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
   </properties>
 
   <dependencies>
@@ -66,7 +67,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
+        <version>${maven-compiler-plugin.version}</version>
         <configuration>
           <source>${java.version}</source>
           <target>${java.version}</target>
@@ -82,7 +83,7 @@
             <argument>-Dlog4j.configuration=file:src/main/java/log4j.properties</argument>
             <argument>-classpath</argument>
             <classpath />
-            <argument>net.jgp.books.sparkWithJava.ch01.CsvToDataframeApp</argument>
+            <argument>net.jgp.books.spark.ch01_csv_to_dataframe.CsvToDataframeApp</argument>
           </arguments>
         </configuration>
       </plugin>
