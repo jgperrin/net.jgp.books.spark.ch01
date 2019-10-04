@@ -4,15 +4,8 @@ The examples in this repository are support to the **[Spark in Action, 2nd editi
 
 Welcome to Spark in Action, 2nd edition, chapter 1. This chapter is an introduction to the book and offers a basic example.
 
-Notes: 
- 1. Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published around April 2019).
- 
----
 
-Follow me on Twitter to get updates about the book and Apache Spark: [@jgperrin](https://twitter.com/jgperrin). Join the book's community on [Facebook](https://facebook.com/sparkinaction/) or in [Manning's live site](https://forums.manning.com/forums/spark-in-action-second-edition?a_aid=jgp).
-
-
-It explains how to run Pyspark/Python application
+## Running PySpark
 
     1. Clone this project
     Assume that cloned this project to ${MY_HOME_DIR}
@@ -24,14 +17,22 @@ It explains how to run Pyspark/Python application
     spark-submit net/jgp/books/spark/ch01/lab100_csv_to_dataframe/csvToDataframeApp.py
     ```
 
-It explains how to run Spark/Scala application
+## Running Scala
 
     1. Clone this project
        Assume that cloned this project to ${MY_HOME_DIR}
 
-    2. cd ${MY_HOME_DIR}/src/main/python
+    2. cd ${MY_HOME_DIR}/src/main/scala
 
     3. Execute the following spark-submit command to create a jar file to our this application
     ```
     spark-submit net.jgp.books.spark.ch01.lab100_csv_to_dataframe.Csv2DataframeApp
     ```
+
+Notes: 
+ 1. Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published around April 2019).
+ 
+---
+
+Follow me on Twitter to get updates about the book and Apache Spark: [@jgperrin](https://twitter.com/jgperrin). Join the book's community on [Facebook](https://facebook.com/sparkinaction/) or in [Manning's live site](https://forums.manning.com/forums/spark-in-action-second-edition?a_aid=jgp).
+ 
