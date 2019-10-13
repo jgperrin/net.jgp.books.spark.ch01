@@ -17,8 +17,10 @@ Refer to [Spark in Action, 2nd edition](http://jgp.net/sia)'s chapter 1 for the 
 ## Running the lab using PySpark
 
 Prerequisites:
- * You will need `git`.
- * 
+
+You will need:
+ * `git`.
+ * Apache Spark vTODO Ram or later. 
 
 1. Clone this project
 
@@ -37,10 +39,19 @@ TODO Ram: install Spark? Refer to an Appendix?
 
 ## Running the lab in Scala
 
-    1. Clone this project
-       Assume that cloned this project to ${MY_HOME_DIR}
 
-    2. cd ${MY_HOME_DIR}/src/main/scala
+Prerequisites:
+
+You will need:
+ * `git`.
+ * Apache Spark vTODO Ram or later. 
+
+
+1. Clone this project
+
+    git clone https://github.com/jgperrin/net.jgp.books.spark.ch01
+
+2. TODO Ram: please check cd ${MY_HOME_DIR}/src/main/scala
 
 TODO Ram: install Spark? Refer to an Appendix?
 TODO Ram: Compile
@@ -57,4 +68,5 @@ Notes:
 ---
 
 Follow me on Twitter to get updates about the book and Apache Spark: [@jgperrin](https://twitter.com/jgperrin). Join the book's community on [Facebook](https://facebook.com/sparkinaction/) or in [Manning's live site](https://forums.manning.com/forums/spark-in-action-second-edition?a_aid=jgp).
+
  
