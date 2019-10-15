@@ -8,7 +8,9 @@ Welcome to Spark in Action, 2nd edition, chapter 1. This chapter is an introduct
 
 This chapter only has one lab:
 
-* Lab \#100: `CsvToDataframeApp` is reading (ingesting) a CSV file and store the content in a dataframe.
+### Lab \#100
+
+The `CsvToDataframeApp` app is reading (ingesting) a CSV file and store the content in a dataframe.
 
 ## Running the lab in Java
 
@@ -62,11 +64,9 @@ TODO Ram: Compile
     ```
 
 Notes: 
- 1. Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published around April 2019).
- 2. As of MEAP v14, we have introduced Scala and Python examples.
+ 1. Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).
+ 2. As of MEAP v14, we have introduced Scala and Python examples (published in October 2019).
  
 ---
 
 Follow me on Twitter to get updates about the book and Apache Spark: [@jgperrin](https://twitter.com/jgperrin). Join the book's community on [Facebook](https://facebook.com/sparkinaction/) or in [Manning's live site](https://forums.manning.com/forums/spark-in-action-second-edition?a_aid=jgp).
-
- 
