@@ -1,20 +1,24 @@
-The examples in this repository are support to the **[Spark in Action, 2nd edition](http://jgp.net/sia)** book by Jean-Georges Perrin and published by Manning. Find out more about the book on [Manning's website](http://jgp.net/sia).
+This repository contains Scala and Python versions of the Java code used in Manning Publication’s **[Spark in Action, 2nd edition](https://www.manning.com/books/spark-in-action-second-edition?a_aid=jgp)**, by Jean-Georges Perrin..
 
-# Spark in Action, 2nd edition - chapter 1
+# Spark in Action, 2nd edition – Java, Python, and Scala code for chapter 1
 
-Welcome to Spark in Action, 2nd edition, chapter 1. This chapter is an introduction to the book and offers a basic example.
+Chapter 1 introduces the book and offers a basic example.
 
 ## Lab
 
-This chapter only has one lab:
+Each chapter has one or more labs. Labs are examples used for teaching in the book(https://www.manning.com/books/spark-in-action-second-edition?a_aid=jgp). You are encouraged to take ownership of the code and modify it, experiment with it, hence the use of the term **lab**. This chapter has only one lab.
 
 ### Lab \#100
 
-The `CsvToDataframeApp` app is reading (ingesting) a CSV file and store the content in a dataframe.
+The `CsvToDataframeApp` application does the following:
+
+1.	It acquires a session (a `SparkSession`).
+1.	It asks Spark to load (ingest) a dataset in CSV format.
+1.	Spark stores the contents in a dataframe, then displays the first five rows of the dataset.
 
 ## Running the lab in Java
 
-Refer to [Spark in Action, 2nd edition](http://jgp.net/sia)'s chapter 1 for the way to run the lab.
+For information on running the Java lab, see chapter 1 in [Spark in Action, 2nd edition](http://jgp.net/sia).
 
 ## Running the lab using PySpark
 
