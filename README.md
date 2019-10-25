@@ -68,8 +68,8 @@ TODO Ram: Compile
     ```
 
 Notes: 
- 1. Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).
- 2. As of MEAP v14, we have introduced Scala and Python examples (published in October 2019).
+ 1. [Java] Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).
+ 2. [Scala, Python] As of MEAP v14, we have introduced Scala and Python examples (published in October 2019).
  
 ---
 
