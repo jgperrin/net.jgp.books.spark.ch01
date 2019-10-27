@@ -26,7 +26,7 @@ Prerequisites:
 
 You will need:
  * `git`.
- * Apache Spark vTODO Ram or later. 
+ * Apache Spark.
 
 1. Clone this project
 
@@ -50,22 +50,20 @@ Prerequisites:
 
 You will need:
  * `git`.
- * Apache Spark vTODO Ram or later. 
+ * Apache Spark. 
 
 
 1. Clone this project
 
     git clone https://github.com/jgperrin/net.jgp.books.spark.ch01
 
-2. TODO Ram: please check cd ${MY_HOME_DIR}/src/main/scala
+2. cd net.jgp.books.spark.ch01/src/main/scala
 
-TODO Ram: install Spark? Refer to an Appendix?
-TODO Ram: Compile
 
-    3. Execute the following spark-submit command to create a jar file to our this application
-    ```
-    spark-submit net.jgp.books.spark.ch01.lab100_csv_to_dataframe.Csv2DataframeApp
-    ```
+3. Execute the following spark-submit command to create a jar file to our this application
+```
+spark-submit net.jgp.books.spark.ch01.lab100_csv_to_dataframe.Csv2DataframeApp
+```
 
 Notes: 
  1. [Java] Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).
