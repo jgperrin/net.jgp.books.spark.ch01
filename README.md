@@ -26,7 +26,7 @@ Prerequisites:
 
 You will need:
  * `git`.
- * Apache Spark vTODO Ram or later. 
+ * Apache Spark (please refer Appendix P - 'Spark in production: installation and a few tips').
 
 1. Clone this project
 
@@ -36,12 +36,10 @@ You will need:
 
     cd net.jgp.books.spark.ch01/src/main/python/net/jgp/books/spark/ch01/lab100_csv_to_dataframe/
 
-TODO Ram: install Spark? Refer to an Appendix?
-
-    3. Execute the following spark-submit command to create a jar file to our this application
-    ```
-    spark-submit CsvToDataframeApp.py
-    ```
+3. Execute the following spark-submit command to create a jar file to our this application
+```
+spark-submit CsvToDataframeApp.py
+```
 
 ## Running the lab in Scala
 
@@ -50,22 +48,25 @@ Prerequisites:
 
 You will need:
  * `git`.
- * Apache Spark vTODO Ram or later. 
+ * Apache Spark (please refer Appendix P - 'Spark in production: installation and a few tips'). 
 
 
 1. Clone this project
 
     git clone https://github.com/jgperrin/net.jgp.books.spark.ch01
 
-2. TODO Ram: please check cd ${MY_HOME_DIR}/src/main/scala
+2. cd 'net.jgp.books.spark.ch01'
 
-TODO Ram: install Spark? Refer to an Appendix?
-TODO Ram: Compile
+3. Package application using sbt command
+```
+sbt clean package
 
-    3. Execute the following spark-submit command to create a jar file to our this application
-    ```
-    spark-submit net.jgp.books.spark.ch01.lab100_csv_to_dataframe.Csv2DataframeApp
-    ```
+```
+
+4. Run Spark/Scala application using spark-submit command as shown below:
+```
+spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/sparkinaction2-chapter01_2.11-1.0.0.jar
+```
 
 Notes: 
  1. [Java] Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).

@@ -7,7 +7,7 @@ import org.apache.spark.sql.SparkSession
   *
   * @author rambabu.posa
   */
-object Csv2DataframeApp {
+object CsvToDataframeScalaApp {
 
   /**
     * main() is your entry point to the application.
