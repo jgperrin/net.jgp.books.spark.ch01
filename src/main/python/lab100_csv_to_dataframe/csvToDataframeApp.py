@@ -6,7 +6,7 @@ from pyspark.sql import SparkSession
 import os
 
 current_dir = os.path.dirname(__file__)
-relative_path = "../../../../../../../../../data/books.csv"
+relative_path = "../../../../data/books.csv"
 absolute_file_path = os.path.join(current_dir, relative_path)
 
 # Creates a session on a local master

@@ -34,7 +34,7 @@ You will need:
 
 2. Go to the lab in the Python directory
 
-    cd net.jgp.books.spark.ch01/src/main/python/net/jgp/books/spark/ch01/lab100_csv_to_dataframe/
+    cd net.jgp.books.spark.ch01/src/main/python/lab100_csv_to_dataframe/
 
 3. Execute the following spark-submit command to create a jar file to our this application
 ```
