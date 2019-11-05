@@ -37,9 +37,9 @@ You will need:
     cd net.jgp.books.spark.ch01/src/main/python/lab100_csv_to_dataframe/
 
 3. Execute the following spark-submit command to create a jar file to our this application
-```
-spark-submit CsvToDataframeApp.py
-```
+   ```
+    spark-submit CsvToDataframeApp.py
+   ```
 
 ## Running the lab in Scala
 
@@ -55,18 +55,19 @@ You will need:
 
     git clone https://github.com/jgperrin/net.jgp.books.spark.ch01
 
-2. cd 'net.jgp.books.spark.ch01'
+2. cd net.jgp.books.spark.ch01
 
 3. Package application using sbt command
-```
-sbt clean package
 
-```
+   ```
+     sbt clean package
+   ```
 
 4. Run Spark/Scala application using spark-submit command as shown below:
-```
-spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/sparkinaction2-chapter01_2.11-1.0.0.jar
-```
+
+   ```
+     spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/sparkinaction2-chapter01_2.11-1.0.0.jar
+   ```
 
 Notes: 
  1. [Java] Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).
