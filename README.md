@@ -60,13 +60,13 @@ You will need:
 3. Package application using sbt command
 
    ```
-     sbt clean package
+     sbt clean assembly
    ```
 
 4. Run Spark/Scala application using spark-submit command as shown below:
 
    ```
-     spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/sparkinaction2-chapter01_2.11-1.0.0.jar
+     spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/SparkInAction2-Chapter01-assembly-1.0.0.jar
    ```
 
 Notes: 

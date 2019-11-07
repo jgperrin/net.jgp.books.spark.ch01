@@ -29,4 +29,5 @@ hs_err_pid*
 .idea
 *.iml
 target/*.*
-project/target/*.*
+project/target/*
+project/project/*
