@@ -37,8 +37,9 @@ You will need:
     cd net.jgp.books.spark.ch01/src/main/python/lab100_csv_to_dataframe/
 
 3. Execute the following spark-submit command to create a jar file to our this application
+
    ```
-    spark-submit CsvToDataframeApp.py
+    spark-submit csvToDataframeApp.py
    ```
 
 ## Running the lab in Scala
@@ -49,7 +50,6 @@ Prerequisites:
 You will need:
  * `git`.
  * Apache Spark (please refer Appendix P - 'Spark in production: installation and a few tips'). 
-
 
 1. Clone this project
 
