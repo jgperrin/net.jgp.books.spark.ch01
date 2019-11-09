@@ -13,8 +13,8 @@ Each chapter has one or more labs. Labs are examples used for teaching in the bo
 The `CsvToDataframeApp` application does the following:
 
 1.	It acquires a session (a `SparkSession`).
-1.	It asks Spark to load (ingest) a dataset in CSV format.
-1.	Spark stores the contents in a dataframe, then displays the first five rows of the dataset.
+2.	It asks Spark to load (ingest) a dataset in CSV format.
+3.	Spark stores the contents in a dataframe, then displays the first five rows of the dataset.
 
 ## Running the lab in Java
 
