@@ -13,8 +13,8 @@ Each chapter has one or more labs. Labs are examples used for teaching in the bo
 The `CsvToDataframeApp` application does the following:
 
 1.	It acquires a session (a `SparkSession`).
-1.	It asks Spark to load (ingest) a dataset in CSV format.
-1.	Spark stores the contents in a dataframe, then displays the first five rows of the dataset.
+2.	It asks Spark to load (ingest) a dataset in CSV format.
+3.	Spark stores the contents in a dataframe, then displays the first five rows of the dataset.
 
 ## Running the lab in Java
 
@@ -34,12 +34,13 @@ You will need:
 
 2. Go to the lab in the Python directory
 
-    cd net.jgp.books.spark.ch01/src/main/python/net/jgp/books/spark/ch01/lab100_csv_to_dataframe/
+    cd net.jgp.books.spark.ch01/src/main/python/lab100_csv_to_dataframe/
 
 3. Execute the following spark-submit command to create a jar file to our this application
-```
-spark-submit CsvToDataframeApp.py
-```
+
+   ```
+    spark-submit csvToDataframeApp.py
+   ```
 
 ## Running the lab in Scala
 
@@ -50,23 +51,23 @@ You will need:
  * `git`.
  * Apache Spark (please refer Appendix P - 'Spark in production: installation and a few tips'). 
 
-
 1. Clone this project
 
     git clone https://github.com/jgperrin/net.jgp.books.spark.ch01
 
-2. cd 'net.jgp.books.spark.ch01'
+2. cd net.jgp.books.spark.ch01
 
 3. Package application using sbt command
-```
-sbt clean package
 
-```
+   ```
+     sbt clean assembly
+   ```
 
 4. Run Spark/Scala application using spark-submit command as shown below:
-```
-spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/sparkinaction2-chapter01_2.11-1.0.0.jar
-```
+
+   ```
+     spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/SparkInAction2-Chapter01-assembly-1.0.0.jar
+   ```
 
 Notes: 
  1. [Java] Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).
