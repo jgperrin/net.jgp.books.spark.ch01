@@ -38,9 +38,9 @@ You will need:
 
 3. Execute the following spark-submit command to create a jar file to our this application
 
-   ```
+ ```
     spark-submit csvToDataframeApp.py
-   ```
+ ```
 
 ## Running the lab in Scala
 
