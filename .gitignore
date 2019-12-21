@@ -34,3 +34,4 @@ project/target/*
 project/project/*
 target/*.*
 /.cache-main
+/project/
