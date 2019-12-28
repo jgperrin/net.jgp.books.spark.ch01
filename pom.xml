@@ -13,7 +13,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
     <scala.version>2.12</scala.version>
-    <spark.version>3.0.0-preview</spark.version>
+    <spark.version>3.0.0-preview2</spark.version>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
   </properties>
 
