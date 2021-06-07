@@ -77,10 +77,16 @@ sbt clean assembly
 spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/SparkInAction2-Chapter01-assembly-1.0.0.jar
 ```
 
+## News
+ 1. [2020-06-07] Updated the pom.xml to support Apache Spark v3.1.2. 
+ 1. [2020-06-07] As we celebrate the first anniversary of Spark in Action, 2nd edition is the best-rated Apache Spark book on [Amazon](https://amzn.to/2TPnmOv). 
+
 ## Notes
  1. [Java] Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).
- 2. [Scala, Python] As of MEAP v14, we have introduced Scala and Python examples (published in October 2019).
+ 1. [Scala, Python] As of MEAP v14, we have introduced Scala and Python examples (published in October 2019).
+ 1. The master branch contains the last version of the code running against the latest supported version of Apache Spark. Look in specifics branches for specific versions.
  
 ---
 
 Follow me on Twitter to get updates about the book and Apache Spark: [@jgperrin](https://twitter.com/jgperrin). Join the book's community on [Facebook](https://facebook.com/sparkinaction/) or in [Manning's live site](https://forums.manning.com/forums/spark-in-action-second-edition?a_aid=jgp).
+
