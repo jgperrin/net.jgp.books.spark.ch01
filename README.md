@@ -1,4 +1,4 @@
-This repository contains Scala and Python versions of the Java code used in Manning Publication’s **[Spark in Action, 2nd edition](https://www.manning.com/books/spark-in-action-second-edition?a_aid=jgp)**, by Jean-Georges Perrin..
+This repository contains Scala and Python versions of the Java code used in Manning Publication’s **[Spark in Action, 2nd edition](https://www.manning.com/books/spark-in-action-second-edition?a_aid=jgp)**, by Jean-Georges Perrin.
 
 # Spark in Action, 2nd edition – Java, Python, and Scala code for chapter 1
 
