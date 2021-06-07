@@ -28,7 +28,7 @@ Prerequisites:
 
 You will need:
  * `git`.
- * Apache Spark (please refer Appendix P - 'Spark in production: installation and a few tips').
+ * Apache Spark (please refer Appendix K - 'Spark in production: installation and a few tips').
 
 1. Clone this project
 
