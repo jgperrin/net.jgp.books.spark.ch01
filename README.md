@@ -1,4 +1,5 @@
-This repository contains Scala and Python versions of the Java code used in Manning Publication’s **[Spark in Action, 2nd edition](https://www.manning.com/books/spark-in-action-second-edition?a_aid=jgp)**, by Jean-Georges Perrin.
+This repository contains the Java labs as well as their Scala and Python ports of the code used in Manning Publication’s **[Spark in Action, 2nd edition](https://www.manning.com/books/spark-in-action-second-edition?a_aid=jgp)**, by Jean-Georges Perrin.
+
 
 # Spark in Action, 2nd edition – Java, Python, and Scala code for chapter 1
 
@@ -74,12 +75,12 @@ sbt clean assembly
 4. Run Spark/Scala application using spark-submit command as shown below:
 
 ```
-spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.11/SparkInAction2-Chapter01-assembly-1.0.0.jar
+spark-submit --class net.jgp.books.spark.ch01.lab100_csv_to_dataframe.CsvToDataframeScalaApp target/scala-2.12/SparkInAction2-Chapter01-assembly-1.0.0.jar
 ```
 
 ## News
- 1. [2020-06-07] Updated the pom.xml to support Apache Spark v3.1.2. 
- 1. [2020-06-07] As we celebrate the first anniversary of Spark in Action, 2nd edition is the best-rated Apache Spark book on [Amazon](https://amzn.to/2TPnmOv). 
+ 1. [2021-06-07] Updated the pom.xml to support Apache Spark v3.1.2. 
+ 1. [2021-06-07] As we celebrate the first anniversary of Spark in Action, 2nd edition is the best-rated Apache Spark book on [Amazon](https://amzn.to/2TPnmOv). 
 
 ## Notes
  1. [Java] Due to renaming the packages to match more closely Java standards, this project is not in sync with the book's MEAP prior to v10 (published in April 2019).
