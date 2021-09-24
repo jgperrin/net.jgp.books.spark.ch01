@@ -4,7 +4,7 @@ This repository contains Scala and Python versions of the Java code used in Mann
 
 Chapter 1 introduces the book and offers a basic example.
 
-This code is designed to work with Apache Spark v3.1.2.
+This code is designed to work with Apache Spark v3.0.0.
 
 ## Lab
 
